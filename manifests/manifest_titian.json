@@ -1,83 +1,275 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://MultimedialitySummerSchool.github.io/IIIF Workshop/manifests/manifest_titian.json",
-  "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "[Click to edit description]",
-    "@language" : "en"
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://MultimedialitySummerSchool.github.io/IIIF Workshop/manifests/manifest_titian.json",
+  "type" : "Manifest",
+  "label" : {
+    "none" : [ "Images from multiple collections" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "none" : [ "Creator" ]
+    },
+    "value" : {
+      "none" : [ "Valeria Federici" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Date Created" ]
+    },
+    "value" : {
+      "none" : [ "2024-11-19T23:17:44.000000Z" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Date Modified" ]
+    },
+    "value" : {
+      "none" : [ "2024-11-19T23:17:44.000000Z" ]
+    }
+  }, {
+    "label" : {
+      "none" : [ "Date Published" ]
+    },
+    "value" : {
+      "none" : [ "2024-11-19T23:18:58.000000Z" ]
+    }
   } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
-  "sequences" : [ {
-    "@id" : "http://fbc88c30-383b-44de-9e15-d37f214a4531",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "http://ef5aa9ed-43f8-4bfc-80a0-9c0f46de9ffd",
-      "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
-      "height" : 17089,
-      "width" : 12872,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://21f54611-80b4-4858-b887-b1ff6f4c072c",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://media.nga.gov/iiif/4b6a997d-410c-44af-a3f1-95ac4f103717/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://media.nga.gov/iiif/4b6a997d-410c-44af-a3f1-95ac4f103717",
-            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
-              "formats" : [ "jpg" ],
-              "qualities" : [ "native", "color", "gray" ],
-              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
-            } ]
-          },
-          "height" : 17089,
-          "width" : 12872
-        },
-        "on" : "http://ef5aa9ed-43f8-4bfc-80a0-9c0f46de9ffd"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://69891df8-43db-49df-81d6-476539f3ba4f",
-      "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
-      "height" : 34917,
-      "width" : 28585,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://483fd1de-e05d-4896-bb3a-418e9637d9aa",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://media.nga.gov/iiif/acf2ae83-872b-4aee-b927-22913c5d06c1/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://media.nga.gov/iiif/acf2ae83-872b-4aee-b927-22913c5d06c1",
-            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
-              "formats" : [ "jpg" ],
-              "qualities" : [ "native", "color", "gray" ],
-              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
-            } ]
-          },
-          "height" : 34917,
-          "width" : 28585
-        },
-        "on" : "http://69891df8-43db-49df-81d6-476539f3ba4f"
-      } ],
-      "related" : ""
+  "thumbnail" : [ {
+    "id" : "https://w3id.org/iaw/gly/images/iiif/01JD3BDTM00KMVE6RRYP2VKYVE/full/300,/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "width" : 300,
+    "height" : 221,
+    "service" : [ {
+      "id" : "https://w3id.org/iaw/gly/images/iiif/01JD3BDTM00KMVE6RRYP2VKYVE",
+      "type" : "ImageService3",
+      "profile" : "level2"
     } ]
   } ],
-  "structures" : [ ]
+  "items" : [ {
+    "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3608",
+    "type" : "Canvas",
+    "label" : {
+      "none" : [ "First artist" ]
+    },
+    "width" : 2358,
+    "height" : 1730,
+    "items" : [ {
+      "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3608/page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3608/page/annotation",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://w3id.org/iaw/gly/images/iiif/01JD3BDTM00KMVE6RRYP2VKYVE/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 2358,
+          "height" : 1730,
+          "service" : [ {
+            "id" : "https://w3id.org/iaw/gly/images/iiif/01JD3BDTM00KMVE6RRYP2VKYVE",
+            "type" : "ImageService3",
+            "profile" : "level2"
+          } ]
+        },
+        "target" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3608"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/images/3608/annotation-sets/74",
+      "type" : "AnnotationPage",
+      "label" : {
+        "none" : [ "Test annotation" ]
+      },
+      "summary" : {
+        "none" : [ "This is a list of annotations" ]
+      },
+      "metadata" : [ {
+        "label" : {
+          "none" : [ "Identifier" ]
+        },
+        "value" : {
+          "none" : [ 74 ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Creator" ]
+        },
+        "value" : {
+          "none" : [ "Valeria Federici" ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Date Created" ]
+        },
+        "value" : {
+          "none" : [ "2024-11-19T23:47:02.000000Z" ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Date Modified" ]
+        },
+        "value" : {
+          "none" : [ "2024-11-19T23:50:43.000000Z" ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Date Published" ]
+        },
+        "value" : {
+          "none" : [ "2024-11-19T23:49:19.000000Z" ]
+        }
+      } ],
+      "items" : [ {
+        "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/images/3608/annotation-sets/74/annotations/166",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "created" : "2024-11-19 23:47:50",
+        "modified" : "2024-11-19 23:47:50",
+        "target" : {
+          "source" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3608",
+          "selector" : {
+            "type" : "FragmentSelector",
+            "conformsTo" : "http://www.w3.org/TR/media-frags/",
+            "value" : "xywh=125.12380981445312,331.8478698730469,307.9845886230469,488.2424011230469"
+          }
+        },
+        "body" : [ {
+          "type" : "TextualBody",
+          "purpose" : "describing",
+          "language" : "en",
+          "format" : "text/plain",
+          "value" : "Title: This point"
+        }, {
+          "type" : "TextualBody",
+          "purpose" : "describing",
+          "language" : "en",
+          "format" : "text/plain",
+          "value" : "Description: In this corner there are multiple lines"
+        }, {
+          "type" : "TextualBody",
+          "purpose" : "classifying",
+          "language" : "en",
+          "format" : "text/plain",
+          "value" : "Line Color: Medium"
+        } ]
+      } ]
+    } ]
+  }, {
+    "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3609",
+    "type" : "Canvas",
+    "label" : {
+      "none" : [ "Famous artist" ]
+    },
+    "width" : 28585,
+    "height" : 34917,
+    "items" : [ {
+      "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3609/page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3609/page/annotation",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://media.nga.gov/iiif/acf2ae83-872b-4aee-b927-22913c5d06c1/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 28585,
+          "height" : 34917,
+          "service" : [ {
+            "id" : "https://media.nga.gov/iiif/acf2ae83-872b-4aee-b927-22913c5d06c1",
+            "type" : "ImageService2",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          } ]
+        },
+        "target" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3609"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/images/3609/annotation-sets/74",
+      "type" : "AnnotationPage",
+      "label" : {
+        "none" : [ "Test annotation" ]
+      },
+      "summary" : {
+        "none" : [ "This is a list of annotations" ]
+      },
+      "metadata" : [ {
+        "label" : {
+          "none" : [ "Identifier" ]
+        },
+        "value" : {
+          "none" : [ 74 ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Creator" ]
+        },
+        "value" : {
+          "none" : [ "Valeria Federici" ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Date Created" ]
+        },
+        "value" : {
+          "none" : [ "2024-11-19T23:47:02.000000Z" ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Date Modified" ]
+        },
+        "value" : {
+          "none" : [ "2024-11-19T23:50:43.000000Z" ]
+        }
+      }, {
+        "label" : {
+          "none" : [ "Date Published" ]
+        },
+        "value" : {
+          "none" : [ "2024-11-19T23:49:19.000000Z" ]
+        }
+      } ],
+      "items" : [ {
+        "id" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/images/3609/annotation-sets/74/annotations/167",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "created" : "2024-11-19 23:48:16",
+        "modified" : "2024-11-19 23:48:16",
+        "target" : {
+          "source" : "https://w3id.org/iaw/gly/data/publications/image-sets/01jd3bhn9b35xy7wb0m076kee1/manifest/canvases/3609",
+          "selector" : {
+            "type" : "SvgSelector",
+            "value" : "<svg><circle cx=\"20505.865234375\" cy=\"21094.806640625\" r=\"5609.610345687645\"></circle></svg>"
+          }
+        },
+        "body" : [ {
+          "type" : "TextualBody",
+          "purpose" : "describing",
+          "language" : "en",
+          "format" : "text/plain",
+          "value" : "Title: This is the Maltese cross"
+        }, {
+          "type" : "TextualBody",
+          "purpose" : "describing",
+          "language" : "en",
+          "format" : "text/plain",
+          "value" : "Description: Portraits by Titian were in great demand, distinguished as they were for their remarkable insight into character and their brilliant technique. Here, he limited his palette to black, white, and rose and enlivened the surface with light: the dull gleam rippling over the sleeves of the velvet cloak, the pattern flickering across the slashed doublet, and the changing reflections on the satin Maltese Cross."
+        }, {
+          "type" : "TextualBody",
+          "purpose" : "linking",
+          "language" : "en",
+          "format" : "text/plain",
+          "value" : "Link: [https://www.nga.gov/collection/art-object-page.41593.html](https://www.nga.gov/collection/art-object-page.41593.html)"
+        }, {
+          "type" : "TextualBody",
+          "purpose" : "classifying",
+          "language" : "en",
+          "format" : "text/plain",
+          "value" : "Line Color: Medium"
+        } ]
+      } ]
+    } ]
+  } ]
 }
