@@ -1,0 +1,13 @@
+{
+  "id" : "https://MultimedialitySummerSchool.github.io/IIIF Workshop/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in MultimedialitySummerSchool/IIIF-Workshop project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://MultimedialitySummerSchool.github.io/IIIF Workshop/manifests/manifest_titian.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
