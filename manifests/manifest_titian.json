@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://MultimedialitySummerSchool.github.io/IIIF Workshop/manifests/manifest_titian.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://fbc88c30-383b-44de-9e15-d37f214a4531",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ef5aa9ed-43f8-4bfc-80a0-9c0f46de9ffd",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 17089,
+      "width" : 12872,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://21f54611-80b4-4858-b887-b1ff6f4c072c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://media.nga.gov/iiif/4b6a997d-410c-44af-a3f1-95ac4f103717/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://media.nga.gov/iiif/4b6a997d-410c-44af-a3f1-95ac4f103717",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 17089,
+          "width" : 12872
+        },
+        "on" : "http://ef5aa9ed-43f8-4bfc-80a0-9c0f46de9ffd"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://69891df8-43db-49df-81d6-476539f3ba4f",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 34917,
+      "width" : 28585,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://483fd1de-e05d-4896-bb3a-418e9637d9aa",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://media.nga.gov/iiif/acf2ae83-872b-4aee-b927-22913c5d06c1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://media.nga.gov/iiif/acf2ae83-872b-4aee-b927-22913c5d06c1",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 34917,
+          "width" : 28585
+        },
+        "on" : "http://69891df8-43db-49df-81d6-476539f3ba4f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
